@@ -11,11 +11,44 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --purpleCustom: #4E2769;
+    --greenCustom: #43A773;
+    --pinkCustom: #E04382;
+    --orangeCustom: #ED8F32;
+    --beigeCustom: #ECDCD9;
+    --darkPurpleCustom: #371F31;
   }
 }
 
+@font-face {
+  font-family: 'Hagrid-Italic';
+  src: url('./fonts/Hagrid-Italic-trial.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hagrid-Regular';
+  src: url('./fonts/Hagrid-Regular-trial.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hagrid-Extrabold-Italic';
+  src: url('./fonts/Hagrid-Text-Extrabold-Italic-trial.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hagrid-Extrabold-trial';
+  src: url('./fonts/Hagrid-Text-Extrabold-trial.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--darkPurpleCustom);
   font-family: Arial, Helvetica, sans-serif;
 }
