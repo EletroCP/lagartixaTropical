@@ -5,7 +5,7 @@ interface HamburgerProps {
 
 export default function Hamburger({show}: HamburgerProps) {
   return (
-    <div>
+    <div className={`bg-black ${show ? 'absolute ' : 'hidden'} top-[7.3rem] ease-in-out w-full`}>
       <ol>
         <li>1</li>
         <li>2</li>
